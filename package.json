@@ -1,0 +1,22 @@
+{
+  "name": "009-goodreadmegenerator",
+  "version": "1.0.0",
+  "description": "The Good Read Me Generator is a tool for users to create a Read Me",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chabivz/009-GoodReadMeGenerator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chabivz/009-GoodReadMeGenerator/issues"
+  },
+  "homepage": "https://github.com/Chabivz/009-GoodReadMeGenerator#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
+}
