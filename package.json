@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Chabivz/009-GoodReadMeGenerator#readme",
   "dependencies": {
-    "inquirer": "^8.0.0"
+    "inquirer": "^8.0.0",
+    "node-fetch": "^2.6.1",
+    "prompts": "^2.4.1"
   }
 }
