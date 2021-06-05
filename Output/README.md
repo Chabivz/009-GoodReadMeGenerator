@@ -1,36 +1,41 @@
-# 
-t
+# My super awesome \n\n\n\n Project
+Usage of the project \n\n\n Give me usage baby.
 
 ## Description
-ju
+My super awesome \n\n\n\n Description
 
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contribution](#contribution)
 - [Tests](#tests)
-- [License](#license)
 - [Questions](#questions)
+- [License](#license)
+
 
 ## Installation
-h
+Super awesome installation \n\n\n guide. 
 
 ## Usage
-t
+Usage of the project \n\n\n Give me usage baby.
 
 ## Contribution
-y
-
-## License
-![GNU Affero General Public License v3.0](https://img.shields.io/badge/license-undefined-blue.svg)
-
-[GNU Affero General Public License v3.0](undefined)
-
-undefined
+Who have contributed on this project \n\n\n Hello World!
 
 ## Tests
-y
+No test added hehehe \n\n\n\n You can add them though. They are really awesome! 
 
 ## Questions 
-[Github](https://github.com//)
-[Email]()
+[Github](https://github.com/Chabivz/)
+
+[Email](mailto:chrisabiva@hotmail.com)
+
+## License
+
+![GitHub license](https://img.shields.io/badge/license--mpl--2.0--blue)
+
+[GitHub license](https://api.github.com/licenses/mpl-2.0)
+
+
+
+

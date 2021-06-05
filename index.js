@@ -2,7 +2,10 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
-const genMD = require('./assets/utils/generateMarkdown.js');
+const generateMarkdown = require('./assets/utils/generateMarkdown.js');
+
+
+const writeFile = util.promisify(fs.writeFile);
 
 // TODO: Create an array of questions for user input
 const questionsBank = () => {
@@ -76,23 +79,13 @@ const questionsBank = () => {
   ]);
 };
 
-// TODO: Create a function to write README file
-const writeFile = util.promisify(fs.writeFile);
-
-
 // TODO: Create a function to initialize app
 function init() {
   questionsBank()
   .then((answers) => {
     
-    let licenseInput = answers.license;
-    let licenseBadgeOutput = genMD.licenseBadge(licenseInput);
-    console.log("Index Badge Output =  " + licenseBadgeOutput);
-    let licenseLinkOutput = genMD.licenseLink(licenseInput);
-    console.log("Index License Link Output =  " + licenseLinkOutput);
-    let licenseSectionOutput = genMD.licenseSection(licenseInput);
-    console.log("Index License Link Output =  " + licenseSectionOutput);
-    writeFile('./Output/README.md', genMD.createMD(answers, licenseBadgeOutput, licenseLinkOutput, licenseSectionOutput))
+    // fs.writeFile('./Output/README.md', generateMarkdown(answers))
+    writeFile('./Output/README.md', generateMarkdown(answers))
   })
   .then(() => console.log('Successfully wrote to README.md'))
   .catch((err) => console.error(err));
