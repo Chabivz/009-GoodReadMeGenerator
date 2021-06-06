@@ -30,7 +30,7 @@ node index.js
 - It will generate a good readMe on the folder Output. 
 
 Mood Tracker Demo \
-![Mood Tracker Demo](Assets/images/goodreadmedemo.gif) \
+![Mood Tracker Demo](./assets/images/goodreadmedemo.gif) \
 \
 Starting the app \
 ![Welcome Friends](./assets/images/initialTerminal.png) \
