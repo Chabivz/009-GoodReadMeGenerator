@@ -84,7 +84,6 @@ function init() {
   questionsBank()
   .then((answers) => {
     
-    // fs.writeFile('./Output/README.md', generateMarkdown(answers))
     writeFile('./Output/README.md', generateMarkdown(answers))
   })
   .then(() => console.log('Successfully wrote to README.md'))
